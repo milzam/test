@@ -4,7 +4,6 @@
  */
 package com.milzam.hoiio;
 
-import com.hoiio.sdk.HoiioService;
 import com.hoiio.sdk.exception.HoiioException;
 import com.hoiio.sdk.services.SMSService;
 import java.util.Map;
@@ -19,8 +18,6 @@ public class Test {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        HoiioService hoiio = new HoiioService("Jx7wMle4AUBW9JAi", "3GypndjBxKSJWExW");
-
         try {
 
             // Get sms history
